@@ -16,12 +16,15 @@
             <h1>AI French Poem Generator</h1>
         </header>
         <main>
-            <form id="poem-generator-form">
-                <input type="text" placeholder="Enter the French poem topic" required autofocus autocomplete="off"
-                    class="instructions" id="instructions-input">
-                <input type="submit" class="submit-button"></input>
-            </form>
-            <div class="poem" id="poem"></div>
+            <div class="form-wrapper">
+                <form id="poem-generator-form">
+                    <input type="text" placeholder="Enter the French poem topic" required autofocus autocomplete="off"
+                        class="instructions" id="instructions-input">
+                    <input type="submit" class="submit-button"></input>
+                </form>
+                <div class="hint">i.e Flowers, Trees or Paris</div>
+            </div>
+            <div class="poem hidden" id="poem"></div>
         </main>
         <footer>This AI Project was coded by <a href="https://github.com/tracymuzaki/" target="_blank">Tracy Muzaki</a>
             and
